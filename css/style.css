@@ -12,6 +12,15 @@ main{
     height: 300px;
     object-fit: cover;
 }
+.modal-title{
+    color: black;
+}
+.form-group{
+    color: black;
+}
+.text-custom{
+    color: black;
+}
 
 .filtroCategorias{
     filter: grayscale(60%);
