@@ -21,3 +21,14 @@ main{
     filter: grayscale(0);
     transition: 400ms;
 }
+
+.containerComentarios {
+    display: flex;
+    flex-direction: column;
+    
+
+
+
+
+}
+

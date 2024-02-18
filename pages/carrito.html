@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet"/>
+    <link rel="icon" href="/img/Logo/Logo_Digital_School_2.png" type="image/png"/>
+    <title>Digital School</title>
+  </head>
+
+  <body class="bg-dark text-light">
+    
+    <section>
+      <div id="customAlert" class="alert alert-warning mb-0 alert-dismissible fade show text-center" role="alert">
+        <div class="container">
+          <b>
+            ¡Transforma tu vida profesional! 🚀 Aprovecha el 40% OFF en cursos y
+            desde 60% OFF en carreras. Hasta 12 cuotas sin interés. 🔥
+          </b>
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+      </div>
+    </section>
+
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="/index.html">
+            <img src="/img/Logo/Logo_Digital_School_3.png" alt="Logo Digital School" width="100px"/>
+          </a>
+          <button
+            class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="d-flex">
+            <!-- Input con icono de búsqueda -->
+            <form class="mx-auto d-flex">
+              <div class="input-group">
+                <input class="form-control search-input" type="search" placeholder="Buscar" aria-label="Buscar"/>
+              </div>
+            </form>
+
+            <div class="ms-auto d-flex align-items-center">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                      Iniciar Sesión
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/contactos.html">Contactos</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Carrito -->
+              <button class="btn btn-custom me-3">
+                <a href="/PAGES/error.html">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                  </svg>
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <hr />
+
+    <section>
+      <div class="container mt-3 menu-bar text-center">
+        <div class="row">
+          <div class="col">
+            <button class="btn btn-custom text-warning" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a><b>Cursos</b></a>
+            </button>
+            <div class="dropdown-menu dropdown-multicolumn" aria-labelledby="dropdownMenuButton2">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <h6><b>Front End</b></h6>
+                    <a class="dropdown-item" href="/PAGES/error.html"><b>React JS</b></a>
+                    <a class="dropdown-item" href="/PAGES/error.html"><b>React Native</b></a>
+                    <a class="dropdown-item" href="/PAGES/error.html"><b>Angular</b></a>
+                    <a class="dropdown-item" href="/PAGES/categoriaHombre.html"><b>Ver Todo</b></a>
+                  </div>
+                  <div class="col">
+                    <h6><b>Back End</b></h6>
+                    <a class="dropdown-item" href="/PAGES/error.html"><b>Python</b></a>
+                    <a class="dropdown-item" href="/PAGES/error.html"><b>Java</b></a>
+                    <a class="dropdown-item" href="/PAGES/error.html"><b>.Net</b></a>
+                    <a class="dropdown-item" href="/PAGES/error.html"><b>Ver Todo</b></a>
+                  </div>
+                  <div class="col">
+                    <h6><b>Diseño UX/UI</b></h6>
+                    <a class="dropdown-item" href="/PAGES/error.html"><b>Figma</b></a>
+                    <a class="dropdown-item" href="/PAGES/error.html"><b>Diseño UX/UI</b></a>
+                    <a class="dropdown-item" href="/PAGES/error.html"><b>Ver Todo</b></a>
+                  </div>
+                  <div class="col">
+                    <h6><b>Marketing Digital</b></h6>
+                    <a class="dropdown-item" href="/PAGES/error.html"><b>Goggle Adds</b></a>
+                    <a class="dropdown-item" href="/PAGES/error.html"><b>Marketing de Contenidos</b></a>
+                    <a class="dropdown-item" href="/PAGES/error.html"><b>SEO</b></a>
+                    <a class="dropdown-item" href="/PAGES/error.html"><b>Contenido para Redes Sociales</b></a>
+                    <a class="dropdown-item" href="/PAGES/error.html"><b>Ver Todo</b></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="btn btn-custom text-warning" type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-haspopup="true"  aria-expanded="false">
+              <a><b>Carreras</b></a>
+            </button>
+            <div class="dropdown-menu dropdown-multicolumn" aria-labelledby="dropdownMenuButton3">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <a class="dropdown-item" href="/PAGES/error.html"><b>Desarrollo Front End</b></a>
+                    <a class="dropdown-item" href="/PAGES/error.html"><b>Desarrollo Back End</b></a>
+                    <a class="dropdown-item" href="/PAGES/error.html"><b>Diseño UX/UI</b></a>
+                    <a class="dropdown-item" href="/PAGES/error.html"><b>Ver Todo</b></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="btn btn-custom text-warning" type="button" id="dropdownMenuButton4" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a><b>Bootcamps</b></a>
+            </button>
+            <div class="dropdown-menu dropdown-multicolumn" aria-labelledby="dropdownMenuButton4">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <a class="dropdown-item" href="/PAGES/error.html"><b>Full Stack Developer</b></a>
+                    <a class="dropdown-item" href="/PAGES/error.html"><b>Java Developer</b></a>
+                    <a class="dropdown-item" href="/PAGES/error.html"><b>Big Data/Data Analytics</b></a>
+                    <a class="dropdown-item" href="/PAGES/error.html"><b>Ver Todo</b></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+    
+  <!-- Titulo de sección -->  
+<main>
+  <div class="container mt-3">
+    <div class="row align-items-center">
+      <div class="col-md">
+        
+        <h6 class="display-1" style="margin-left: 0.5rem;">
+          <strong>MI CARRITO</strong></h6>
+        <br></br>
+                  
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+            <img src="/DIGITAL/img/ImagenesHernan/bannercarrito1.png" class="d-block w-100" alt="100% recomendada">
+      </div>
+
+</main>
+
+
+<!-- Contenido del carrito -->
+      <br>
+      <br>
+      <div class="container text-center">
+         <div class="row">
+          
+
+            <div class="col">
+            </div>
+       
+            <div class="col">
+            <p><div style="font-size: 12px;";><b>CURSO/CARRERA</b></div></p>
+            </div>
+
+            <div class="col">
+            <p><div style="font-size: 12px;";><b>NOMBRE/MODULO</b></div></p>
+            </div>
+              
+            <div class="col">
+            <p><div style="font-size: 12px;";><b>PRECIO</b></div></p>
+            </div>
+            
+            <hr>
+          </div>     
+  
+      <div class="container text-center">
+        <div class="row">
+  
+              <div class="col">
+                  <button type="button" class="btn btn-outline-danger">
+                  <a href="http://127.0.0.1:5501/PAGES/error.html" >x</a></button> 
+              </div>
+  
+              <div class="col">
+                  <img src="/DIGITAL/img/ImagenesHernan/Carrito-datascience.jpg"  alt="datascience" style="max-width: 75px" >
+              </div>
+  
+              <div class="col">
+                    <p>DATA SCIENCE</p>
+              </div>
+
+              <div class="col">
+                  <p>$18650</p>
+              </div>
+               
+               <hr>
+              </div>
+  
+    </div>
+            
+  
+    <div class="container text-center">
+      <div class="row">
+
+            <div class="col">
+                <button type="button" class="btn btn-outline-danger">
+                <a href="http://127.0.0.1:5501/PAGES/error.html" >x</a></button> 
+            </div>
+  
+          <div class="col">             
+               <img src="/DIGITAL/img/ImagenesHernan/Carrito-developer.jpg"  alt="botines1" style="max-width: 75px" >
+          </div>
+  
+          <div class="col">
+               <p>FULL STACK DEVELOPER</p>
+          </div>
+                              
+          <div class="col">
+                  <p>$25460</p>
+          </div>
+
+          <hr>
+    </div>
+  </div>
+            
+  
+  <div class="container text-center">
+    <div class="row">
+
+          <div class="col">
+            
+              <button type="button" class="btn btn-outline-danger">
+              <a href="http://127.0.0.1:5501/PAGES/error.html" >x</a></button> 
+          </div>
+                     
+          <div class="col">
+               <img src="/DIGITAL/img/ImagenesHernan/carrito-markeitng.png"  alt="botines1" style="max-width: 75px" backgroun " >
+          </div>
+          
+          <div class="col">
+                     <p>MARKETING DIGITAL</p> 
+          </div>
+
+          <div class="col">
+                 <p>$14690</p> 
+          </div>
+                <hr>
+    </div>
+  </div>
+          
+  
+  <div class="container text-center">
+       <div class="row">
+
+            <div class="col">
+            <p>TOTAL</p>          
+            </div>
+                
+            <div class="col">                    
+            </div>
+
+            <div class="col">                   
+            </div>
+
+            <div class="col">
+            <p>$58800</p>
+            </div>
+
+            
+      </div>
+</div>
+          
+
+
+
+         <br>
+           <div class="container text-lg-end">
+              <div class="botones123">
+            <button type="button" class="btn btn-outline-success" style="width: 250px">Finalizar compra</button>
+            <br>
+            <br>
+            <button type="button" class="btn btn-light"style="width: 250px">Ver más cursos</button>
+            
+          </div></div>
+  
+  <br>
+  
+  
+          
+         
+         
+  
+      </div>
+
+
+    </main>
+
+    <footer class="bg-dark text-secondary py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 text-center text-lg-start mb-3">
+            <a href="/index.html">
+              <img src="/img/Logo/Logo_Digital_School_3.png" alt="Logo Etech Logo_EtecheLearning_2" width="120px"/>
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <h4>Seguinos en nuestras redes:</h4>
+            <div class="text-center text-lg-start">
+              <a href="/pages/error.html" class="link-secondary"><i class="bi bi-facebook fs-1"></i></a>
+              <a href="/pages/error.html" class="link-secondary mx-3"><i class="bi bi-whatsapp fs-1"></i></a>
+              <a href="/pages/error.html" class="link-secondary"><i class="bi bi-instagram fs-1"></i></a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="text-center">
+              <h4>Favoritos:</h4>
+            </div>
+            <div href="/pages/error.html" class="Category" style="border-left: solid 3px #ff8d0a">
+              <a href="/pages/error.html" class="text-end">FullStack Developer</a>
+              <div class="Arrow"></div>
+            </div>
+            <div
+              href="/pages/error.html" class="Category" style="border-left: solid 3px #1476b8">
+              <a href="/pages/error.html" class="text-end">Diseño UX/UI</a>
+              <div class="Arrow"></div>
+            </div>
+            <div href="/pages/error.html" class="Category" style="border-left: solid 3px #17871d">
+              <a href="/pages/error.html" class="text-end">Testing Automatizado y QA</a>
+              <div class="Arrow"></div>
+            </div>
+            <div href="/pages/error.html" class="Category"style="border-left: solid 3px #81439d">
+              <a href="/pages/error.html" class="text-end">Data Science</a>
+              <div class="Arrow"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 text-center mt-3">
+            <h6>
+              Copyright © 2024 Digital School, todos los derechos reservados.
+            </h6>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal de Login -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Iniciar Sesión</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <!-- Columna de la imagen -->
+              <div class="col-md-6 d-none d-md-block">
+                <img src="IMG/golf2.jpeg" alt="Imagen lateral" class="img-fluid w-100 h-auto"/>
+              </div>
+              <!-- Columna de la imagen -->
+              <div class="col-md-12 d-md-none">
+                <img src="IMG/golf.jpeg" alt="Imagen lateral" class="img-fluid w-100 h-auto"/>
+              </div>
+              <!-- Columna del formulario -->
+              <div class="col-md-6">
+                <!-- Formulario de Inicio de Sesión -->
+                <form action="/PAGES/error.html" method="post">
+                  <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" class="form-control" required/>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" class="form-control" required/>
+                  </div>
+
+                  <button type="submit" class="btn btn-primary btn-block m-1">
+                    Iniciar Sesión
+                  </button>
+                </form>
+
+                <div class="text-center mt-3">
+                  <p>O inicia sesión con:</p>
+                  <a href="/PAGES/error.html" class="btn btn-danger btn-block"><i class="bi bi-google mx-auto"></i></a>
+                  <a href="/PAGES/error.html" class="btn btn-primary btn-block"><i class="bi bi-facebook mx-auto"></i></a>
+                </div>
+
+                <p class="mt-3 text-center">
+                  <a href="/PAGES/error.html">¿Olvidaste tu contraseña?</a>
+                </p>
+                <div class="align-items-center">
+                  <div class="d-flex justify-content-center">
+                    <a href="PAGES/registro.html">
+                      <button type="submit" class="btn btn-danger btn-block m-1">Registrate</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts de Bootstrap y otros -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </body>
+</html>
