@@ -8,36 +8,8 @@ main{
     flex-grow: 1;
 }
 
-.imgCarouselProductos{
-    height: 300px;
-    object-fit: cover;
-}
-.modal-title{
-    color: black;
-}
-.form-group{
-    color: black;
-}
-.text-custom{
-    color: black;
-}
-
-.filtroCategorias{
-    filter: grayscale(60%);
-}
-
-.filtroCategorias:hover{
-    filter: grayscale(0);
-    transition: 400ms;
-}
-
 .containerComentarios {
     display: flex;
     flex-direction: column;
-    
-
-
-
-
 }
 
