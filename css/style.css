@@ -13,3 +13,7 @@ main{
     flex-direction: column;
 }
 
+
+#customAlert {
+    width: 100%;
+  }
